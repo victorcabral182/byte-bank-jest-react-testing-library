@@ -20,6 +20,16 @@
     "lint": "eslint \"src/**/*{.js,.jsx}\" --quiet",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branchs": 70,
+        "lines": 70,
+        "functions": 70,
+        "statements": -13
+      }
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
